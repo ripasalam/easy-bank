@@ -29,10 +29,10 @@ const list_features = [
 
 const Features = () => {
     return (
-        <div className='pt-24 pb-10 bg-[#f4f5f7]'>
+        <div className='pt-24 pb-10 bg-[#f4f5f7] px-0 md:px-0'>
             <div className=' max-w-xl md:max-w-7xl mx-auto'>
                 <div className='flex flex-col items-center md:items-start'>
-                    <h2 className='text-4xl md:text-7xl'>Why Choose Easybank ?</h2>
+                    <h2 className='text-4xl text-center w-3/4 md:w-full lg:text-start md:text-7xl'>Why Choose Easybank ?</h2>
                     <h4 className='text-xl text-Grayish-Blue pt-5 w-3/4 md:w-1/2'>We leverage Open Banking to turn your bank account into your financial hub. Control your finances like never before.</h4>
                 </div>
                 <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 pt-20'>

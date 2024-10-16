@@ -5,7 +5,7 @@ import Button from './Button/Button'
 
 const Footer = () => {
     return (
-        <div className='py-16 bg-Dark-Blue text-white'>
+        <div className='py-16 bg-Dark-Blue text-white px-5 md:px-0'>
             <div className=' max-w-xl  md:max-w-7xl  mx-auto grid grid-cols-1 md:grid-cols-3 items-start'>
                 <div className='flex flex-col items-center md:items-start justify-between h-full'>
                     <Image
@@ -15,7 +15,7 @@ const Footer = () => {
                         alt="logo.svg"
                         className=''
                     />
-                    <div className='flex gap-24 md:gap-4 items-end pt-10'>
+                    <div className='flex flex-row gap-12 md:gap-4 justify-center pt-10'>
                         <Image
                             src="images/icon-facebook.svg"
                             width={30}
