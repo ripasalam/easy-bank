@@ -38,13 +38,14 @@ const Articles = () => {
 
                 <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 pt-20'>
                     {list_features.map((item, idx) => (
-                        <div className='flex flex-col items-center gap-4 lg:items-start bg-White '>
+                        <div key={idx} className='flex flex-col items-center gap-4 lg:items-start bg-White '>
                             <div className='w-full '>
                                 <Image
                                     src={item.images}
                                     width={300}
                                     height={300}
                                     className='w-full object-cover h-48'
+                                    alt="articles.svg"
                                 />
 
                             </div>

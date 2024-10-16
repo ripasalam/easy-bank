@@ -37,11 +37,12 @@ const Features = () => {
                 </div>
                 <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 pt-20'>
                     {list_features.map((item, idx) => (
-                        <div className='flex flex-col items-center gap-4 lg:items-start '>
+                        <div key={idx} className='flex flex-col items-center gap-4 lg:items-start '>
                             <Image
                                 src={item.images}
                                 width={100}
                                 height={100}
+                                alt="features.svg"
                             />
                             <h3 className='text-2xl'>{item.features}</h3>
                             <p className='text-base md:w-full w-3/4 text-gray-400 text-center lg:text-start'>{item.description}</p>
